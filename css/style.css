@@ -1,0 +1,106 @@
+*{
+    background-color: #2f3640 !important;
+}
+
+/* HEADER */
+header a{
+    text-decoration: none;
+}
+
+header div nav a{
+    color: aliceblue;
+}
+
+header div nav a:hover{
+    color:  aliceblue;
+    font-size: large;
+    border-bottom: 2px solid aliceblue;
+}
+
+/* INTRO */
+.content h1{
+    font-size: 60px;
+    margin-bottom: 60px;
+    color: #fff;
+
+}
+
+.content h1::after{
+    content:" A Developer" ;
+    animation: textani 10s linear infinite;
+}
+
+@keyframes textani{
+    30%{
+        content:"   A Designer";
+    }
+    60%{
+        content:" A Programmer";
+    }
+}
+
+
+/* CONTACT */
+#contact-info a{
+    text-decoration: none;
+    color: black;
+    background: transparent !important;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#contact-info div {
+    background-color:#48dbfb !important;
+}
+
+#contact-info div div div {
+    border: 1px solid black;
+    height: 200px;
+    width: 450px;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 25px;
+}
+
+#contact-info div div div i{
+    font-size: 50px;
+    background: #48dbfb !important;
+    border-radius: 50%;
+    padding-bottom: 20px;
+    color:  aliceblue;
+}
+
+#contact-info div div div i:hover{
+    font-size: 60px;
+}
+
+/* FOOTER */
+.heart{
+    color: red;
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+}
+
+/* SHARE BUTTON */
+button{
+    position: fixed;
+    right: 1px;
+    top: 70%;
+    transform: rotate(-90deg);
+    background-color: #1d8b82 !important; /* blue */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 7px 7px 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
