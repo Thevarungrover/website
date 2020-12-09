@@ -11,6 +11,7 @@
     <title>My Coder</title>
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- THEME COLOR -->
@@ -31,6 +32,24 @@
         </div>
       </header>
 
+      <!-- form -->
+      <form class="container" >
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          <label for="">Message</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          
+        </div>
+        
+        <!-- submit -->
+        <button type="submit" class="btn btn-primary ctnbtn">Message</button>
+        <button type="reset" class="btn btn-primary ctnbtn">Reset</button>
+      </form>
+
       <br><br><br><br><br><br><br><br>
 
 
@@ -41,7 +60,7 @@
 
     <!-- SHARE BUTTON -->
     <div class="sharebtn">
-        <button type="share">Share</button>
+        <button type="share" id="share">Share</button>
     </div>
 
     <!-- js -->

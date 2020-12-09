@@ -1,5 +1,6 @@
 *{
     background-color: #2f3640 !important;
+    color: aliceblue;
 }
 
 /* HEADER */
@@ -89,7 +90,7 @@ footer{
 }
 
 /* SHARE BUTTON */
-button{
+#share{
     position: fixed;
     right: 1px;
     top: 70%;
