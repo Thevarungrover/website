@@ -3,7 +3,14 @@
     padding-left: 50px;
 }
 
-.srcbtn:hover{
-    background: #0984e3 !important;
+.works div div{
+    padding: 15px;
 }
 
+.works a{
+    text-decoration: none;
+}
+
+.works div div div a :hover{
+    color: #48dbfb;
+}
