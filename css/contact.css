@@ -9,3 +9,8 @@ form{
 input{
     color: aliceblue !important;
 }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
